@@ -10,6 +10,7 @@ import { ContactComponent } from './contact.component';
 import { FaqComponent } from './faq.component';
 import { RegisterComponent } from './register.component';
 import { StudentsComponent } from './students.component';
+import { IndexComponent } from './index.component';
 
 
 @NgModule({
@@ -17,8 +18,40 @@ import { StudentsComponent } from './students.component';
      BrowserModule,
      RouterModule.forRoot([
        {
+         path:'about',
+         component: AboutComponent
+       },
+       {
          path:'speakers',
          component: SpeakersComponent
+       },
+       {
+         path:'students',
+         component: StudentsComponent
+       },
+       {
+         path:'schedule',
+         component: ScheduleComponent
+       },
+       {
+         path:'speakers',
+         component: SpeakersComponent
+       },
+       {
+         path:'register',
+         component: RegisterComponent
+       },
+       {
+         path:'faq',
+         component: FaqComponent
+       },
+       {
+         path:'contact',
+         component: ContactComponent
+       },
+       {
+         path:'index',
+         component: IndexComponent
        }
      ])
   ],
@@ -30,7 +63,8 @@ import { StudentsComponent } from './students.component';
     FaqComponent,
     RegisterComponent,
     StudentsComponent,
-    ContactComponent
+    ContactComponent,
+    IndexComponent
   ],
   bootstrap:    [ AppComponent ]
 })
