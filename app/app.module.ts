@@ -11,6 +11,7 @@ import { FaqComponent } from './faq.component';
 import { RegisterComponent } from './register.component';
 import { StudentsComponent } from './students.component';
 import { IndexComponent } from './index.component';
+import { AuwComponent } from './auw.component'
 
 
 @NgModule({
@@ -52,6 +53,10 @@ import { IndexComponent } from './index.component';
        {
          path:'index',
          component: IndexComponent
+       },
+       {
+         path:'auw',
+         component: AuwComponent
        }
      ])
   ],
@@ -64,7 +69,8 @@ import { IndexComponent } from './index.component';
     RegisterComponent,
     StudentsComponent,
     ContactComponent,
-    IndexComponent
+    IndexComponent,
+    AuwComponent
   ],
   bootstrap:    [ AppComponent ]
 })
