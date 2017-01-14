@@ -1,5 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans|Unica+One');
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+
+body {
+  margin:0;
+  font-family: 'Nunito Sans', sans-serif;
+  background-color: #d2ffef;
+}
 h1 {
-  color: #369;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 250%;
+  font-family: 'Unica One', system, sans-serif;
+  text-transform: uppercase;
+  padding:5px;
+  text-size:2.5em;
+}
+.japanese {
+  font-family: 'Noto Sans Japanese', sans-serif;
+}
+a {
+  color:#000;
+}
+a:hover {
+  color:#15d9d3;
 }
