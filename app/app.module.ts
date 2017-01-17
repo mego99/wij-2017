@@ -11,7 +11,8 @@ import { FaqComponent } from './faq.component';
 import { RegisterComponent } from './register.component';
 import { StudentsComponent } from './students.component';
 import { IndexComponent } from './index.component';
-import { AuwComponent } from './auw.component'
+import { AuwComponent } from './auw.component';
+import { SplashComponent } from './splash.component';
 
 
 @NgModule({
@@ -57,6 +58,15 @@ import { AuwComponent } from './auw.component'
        {
          path:'auw',
          component: AuwComponent
+       },
+       {
+         path:'',
+         redirectTo: '/splash',
+         pathMatch:'full'
+       },
+       {
+         path:'splash',
+         component: SplashComponent
        }
      ])
   ],
@@ -70,7 +80,8 @@ import { AuwComponent } from './auw.component'
     StudentsComponent,
     ContactComponent,
     IndexComponent,
-    AuwComponent
+    AuwComponent,
+    SplashComponent
   ],
   bootstrap:    [ AppComponent ]
 })

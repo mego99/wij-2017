@@ -16,8 +16,13 @@ h1 {
   font-family: 'Noto Sans Japanese', sans-serif;
 }
 a {
-  color:#000;
+  color:#3e5157;
+  text-decoration: none;
 }
 a:hover {
   color:#15d9d3;
+  transition:.5s;
+}
+.main-title {
+  font-size: 5em;
 }

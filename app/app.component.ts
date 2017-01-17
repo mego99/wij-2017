@@ -6,10 +6,8 @@ import { Component } from '@angular/core';
   <div class="body-wrapper">
     <ul class="nav-wrapper flex-item">
         <li class="nav-item nav"><a routerLink="/index">Home </a> </li>
-        <li class="nav-item nav"><a routerLink="/about">About </a> </li>
+        <li class="nav-item nav"><a routerLink="/about">About Us</a> </li>
         <li class="nav-item nav"><a routerLink="/speakers">Speakers </a> </li>
-        <li class="nav-item nav"><a routerLink="/students">Students </a> </li>
-        <li class="nav-item nav"><a routerLink="/auw">About AUW </a> </li>
         <li class="nav-item nav"><a routerLink="/register">Register </a> </li>
         <li class="nav-item nav"><a routerLink="/contact">Contact </a> </li>
         <li class="nav-item nav"><a routerLink="/faq">FAQ </a> </li>
@@ -18,8 +16,6 @@ import { Component } from '@angular/core';
         <router-outlet></router-outlet>
       </div>
     </div>
-
-
   `,
   styles: [`
     .nav-item {
