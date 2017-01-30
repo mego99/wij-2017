@@ -4,7 +4,7 @@
 body {
   margin:0;
   font-family: 'Nunito Sans', sans-serif;
-  background-color: #d2ffef;
+  background-color: #fffbfb;
 }
 h1 {
   font-family: 'Unica One', system, sans-serif;
@@ -20,7 +20,7 @@ a {
   text-decoration: none;
 }
 a:hover {
-  color:#15d9d3;
+  color:#d91538;
   transition:.5s;
 }
 .main-title {
