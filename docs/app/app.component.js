@@ -24,9 +24,10 @@ var AppComponent = (function () {
             styles: ["\n\n    a {\n      text-decoration:none;\n      color:#000;\n    }\n    a:hover {\n      color:#1ec9b0;\n      transition-duration:0.5s;\n    }\n    .body-wrapper {\n      display:flex;\n      flex-direction:column;\n      justify-content:center;\n    }\n    .content-wrapper {\n      text-align:center;\n      padding: 0 10vw 0 10vw;\n      max-width:100vw;\n      height:auto;\n    }\n    "
             ]
         }), 
-        __metadata('design:paramtypes', [common_1.Location])
+        __metadata('design:paramtypes', [(typeof (_a = typeof common_1.Location !== 'undefined' && common_1.Location) === 'function' && _a) || Object])
     ], AppComponent);
     return AppComponent;
+    var _a;
 }());
 exports.AppComponent = AppComponent;
 //# sourceMappingURL=app.component.js.map
