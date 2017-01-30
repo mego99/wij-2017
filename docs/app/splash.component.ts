@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 import { Component } from '@angular/core';
 
 @Component({
@@ -42,4 +40,3 @@ import { Component } from '@angular/core';
 export class SplashComponent {
   public hideNav: boolean = true;
 }
->>>>>>> updated splash page
