@@ -29,9 +29,9 @@ import { Component, OnInit } from '@angular/core';
       </div>
 -->
 
-  <div class="speaker-wrapper" (click)="speakerPopup('Renge')" >
+  <div class="speaker-wrapper" (click)="togglePopup('speaker1')" >
     <img class="speaker-img" src="assets/sample-speaker.png" alt="speaker"/>
-    <div class="popup">
+    <div id="speaker1" class="popup hidden">
       <h3 class="speaker-name">Speaker Name</h3>
       <p> Renge Jibu started her career at Nikkei Business Publications and worked as a journalist at various business magazines in Japan. In 2006, she was a Fulbright Visiting Scholar at the Centre for the Education of Women at the University of Michigan. During this time she conducted research about American dual-career couples with children. She has since written two books on the topic; "Kasegu Tsuma • Sodateru Otto ― Fuufu no Senryaku Teki Yakuwari Koukan” and “Futari no Kosodate Ruulu.” In 2013, she was a researcher at the Showa Women’s University’s Modern Business Research Institute, and currently she is Vice President at Toshima and Associates. </p>
     </div>
@@ -61,7 +61,15 @@ import { Component, OnInit } from '@angular/core';
     }
 
     .popup {
-      background-color:red;
+      background-color:#e23f3f;
+      position:absolute;
+      margin:0px 5vw 0px 5vw;
+      left:0;
+      padding:10px;
+
+    }
+    .hidden {
+      display:none;
     }
 
     @media screen and (max-width:600px) {
@@ -86,10 +94,19 @@ import { Component, OnInit } from '@angular/core';
     `]
 })
 export class SpeakersComponent {
-  speakerPopup(name: string) {
-    var name = name, bio:string;
+
+togglePopup(popupId:string) {
+    function getPopup() {
+      var popup = document.getElementById(popupId);
+      return popup;
+    }
+
+    var popup = getPopup();
+
+    if (popup.hasAttribute('class','hidden')) {
+      popup.removeAttribute("class","hidden")
+      popup.setAttribute("class","popup")
+    }
+
   }
-
-
-
 }
