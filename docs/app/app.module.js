@@ -22,6 +22,7 @@ var students_component_1 = require('./students.component');
 var index_component_1 = require('./index.component');
 var auw_component_1 = require('./auw.component');
 var splash_component_1 = require('./splash.component');
+var nav_component_1 = require('./nav.component');
 var AppModule = (function () {
     function AppModule() {
     }
@@ -92,7 +93,8 @@ var AppModule = (function () {
                 contact_component_1.ContactComponent,
                 index_component_1.IndexComponent,
                 auw_component_1.AuwComponent,
-                splash_component_1.SplashComponent
+                splash_component_1.SplashComponent,
+                nav_component_1.NavComponent
             ],
             bootstrap: [app_component_1.AppComponent]
         }), 

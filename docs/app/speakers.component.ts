@@ -1,11 +1,11 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'speakers',
   template: `
     <h1>Speakers</h1>
     <div class="speaker-list-wrapper">
-
+<!--
       <div class="speaker-wrapper">
         <img class="speaker-img" src="assets/sample-speaker.png" alt="speaker"/>
         <div class="bio-wrapper">
@@ -27,6 +27,15 @@ import { Component } from '@angular/core';
           <p> Renge Jibu started her career at Nikkei Business Publications and worked as a journalist at various business magazines in Japan. In 2006, she was a Fulbright Visiting Scholar at the Centre for the Education of Women at the University of Michigan. During this time she conducted research about American dual-career couples with children. She has since written two books on the topic; "Kasegu Tsuma • Sodateru Otto ― Fuufu no Senryaku Teki Yakuwari Koukan” and “Futari no Kosodate Ruulu.” In 2013, she was a researcher at the Showa Women’s University’s Modern Business Research Institute, and currently she is Vice President at Toshima and Associates. </p>
         </div>
       </div>
+-->
+
+  <div class="speaker-wrapper" (click)="speakerPopup('Renge')" >
+    <img class="speaker-img" src="assets/sample-speaker.png" alt="speaker"/>
+    <div class="popup">
+      <h3 class="speaker-name">Speaker Name</h3>
+      <p> Renge Jibu started her career at Nikkei Business Publications and worked as a journalist at various business magazines in Japan. In 2006, she was a Fulbright Visiting Scholar at the Centre for the Education of Women at the University of Michigan. During this time she conducted research about American dual-career couples with children. She has since written two books on the topic; "Kasegu Tsuma • Sodateru Otto ― Fuufu no Senryaku Teki Yakuwari Koukan” and “Futari no Kosodate Ruulu.” In 2013, she was a researcher at the Showa Women’s University’s Modern Business Research Institute, and currently she is Vice President at Toshima and Associates. </p>
+    </div>
+  </div>
 
     </div>
   `,
@@ -51,6 +60,10 @@ import { Component } from '@angular/core';
       margin-top:0;
     }
 
+    .popup {
+      background-color:red;
+    }
+
     @media screen and (max-width:600px) {
       .speaker-wrapper {
         flex-direction:column;
@@ -72,4 +85,11 @@ import { Component } from '@angular/core';
     }
     `]
 })
-export class SpeakersComponent { }
+export class SpeakersComponent {
+  speakerPopup(name: string) {
+    var name = name, bio:string;
+  }
+
+
+
+}

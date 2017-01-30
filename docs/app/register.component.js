@@ -15,7 +15,7 @@ var RegisterComponent = (function () {
     RegisterComponent = __decorate([
         core_1.Component({
             selector: 'register',
-            template: "\n    <h1>Registration</h1>\n    <p>Conference and Student Share Registration can be found by clicking on the large blue icons below. Other icons will lead to a our facebook page, and an email to contact us through. We would like all participants to arrive at ASIJ by 12:30-12:45, so that everyone has time to register and get seated before 1pm. <p>\n  "
+            template: "\n    <h1>Registration</h1>\n<iframe src=\"https://docs.google.com/a/asij.ac.jp/forms/d/e/1FAIpQLScwBhX_hhsNxgCbgqmtGn5udoJPwvNQykEWcMafl7yR1n0lZQ/viewform?embedded=true\" width=\"100%\" height=\"2000\" frameborder=\"0\" marginheight=\"0\" marginwidth=\"0\">Loading...</iframe>\n  "
         }), 
         __metadata('design:paramtypes', [])
     ], RegisterComponent);
