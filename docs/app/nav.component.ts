@@ -8,6 +8,7 @@ import { Component } from '@angular/core';
       <li class="nav-item nav"><a routerLink="/about">About Us</a> </li>
       <li class="nav-item nav"><a routerLink="/speakers">Speakers </a> </li>
       <li class="nav-item nav"><a routerLink="/register">Register </a> </li>
+      <li class="nav-item nav"><a routerLink="/schedule">Schedule </a> </li>
       <li class="nav-item nav"><a routerLink="/contact">Contact </a> </li>
       <li class="nav-item nav"><a routerLink="/faq">FAQ </a> </li>
     </ul>
@@ -30,7 +31,7 @@ import { Component } from '@angular/core';
         left:0;
         max-width:100vw;
         background-color:rgba(255, 255, 255, 0.2);
-        width:100vw;
+        width:100%;
         box-sizing:border-box;
       }
       `]
