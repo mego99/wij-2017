@@ -13,6 +13,7 @@ import { StudentsComponent } from './students.component';
 import { IndexComponent } from './index.component';
 import { AuwComponent } from './auw.component';
 import { SplashComponent } from './splash.component';
+import { NavComponent } from './nav.component';
 
 
 @NgModule({
@@ -81,7 +82,8 @@ import { SplashComponent } from './splash.component';
     ContactComponent,
     IndexComponent,
     AuwComponent,
-    SplashComponent
+    SplashComponent,
+    NavComponent
   ],
   bootstrap:    [ AppComponent ]
 })
