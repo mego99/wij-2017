@@ -96,6 +96,9 @@ var AppModule = (function () {
                 splash_component_1.SplashComponent,
                 nav_component_1.NavComponent
             ],
+            providers: [
+                platform_browser_1.Title
+            ],
             bootstrap: [app_component_1.AppComponent]
         }), 
         __metadata('design:paramtypes', [])

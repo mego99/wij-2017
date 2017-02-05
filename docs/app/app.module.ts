@@ -1,5 +1,5 @@
 import { NgModule }      from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
+import { BrowserModule, Title } from '@angular/platform-browser';
 import { RouterModule } from '@angular/router';
 
 import { AppComponent }  from './app.component';
@@ -84,6 +84,9 @@ import { NavComponent } from './nav.component';
     AuwComponent,
     SplashComponent,
     NavComponent
+  ],
+  providers: [
+    Title
   ],
   bootstrap:    [ AppComponent ]
 })

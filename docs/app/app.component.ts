@@ -1,6 +1,7 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { NavComponent } from './nav.component';
 import { Location } from '@angular/common';
+import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'my-app',
@@ -38,9 +39,18 @@ import { Location } from '@angular/common';
     `
   ]
 })
-export class AppComponent  {
-  title = 'Women in Japan 2017';
+export class AppComponent implements OnInit {
+  title = 'Problems, Possibilities, Power';
   public hideNav: boolean = true;
   public location: Location;
-  constructor(location: Location) {this.location = location};
+  constructor(location: Location, private titleService: Title) {
+    this.location = location;
+  };
+
+  public setTitle(newTitle: string) {
+    this.titleService.setTitle(newTitle);
+  }
+  ngOnInit() {
+    this.setTitle("Women In Japan 2017 | " + this.title);
+  }
 }

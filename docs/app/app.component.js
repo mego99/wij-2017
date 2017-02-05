@@ -10,13 +10,21 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 var core_1 = require('@angular/core');
 var common_1 = require('@angular/common');
+var platform_browser_1 = require('@angular/platform-browser');
 var AppComponent = (function () {
-    function AppComponent(location) {
-        this.title = 'Women in Japan 2017';
+    function AppComponent(location, titleService) {
+        this.titleService = titleService;
+        this.title = 'Problems, Possibilities, Power';
         this.hideNav = true;
         this.location = location;
     }
     ;
+    AppComponent.prototype.setTitle = function (newTitle) {
+        this.titleService.setTitle(newTitle);
+    };
+    AppComponent.prototype.ngOnInit = function () {
+        this.setTitle("Women In Japan 2017 | " + this.title);
+    };
     AppComponent = __decorate([
         core_1.Component({
             selector: 'my-app',
@@ -24,7 +32,7 @@ var AppComponent = (function () {
             styles: ["\n\n    a {\n      text-decoration:none;\n      color:#000;\n    }\n    a:hover {\n      color:#1ec9b0;\n      transition-duration:0.5s;\n    }\n    .body-wrapper {\n      display:flex;\n      flex-direction:column;\n      justify-content:center;\n    }\n    .content-wrapper {\n      text-align:center;\n      padding: 0 10vw 0 10vw;\n      max-width:100vw;\n      height:auto;\n    }\n    "
             ]
         }), 
-        __metadata('design:paramtypes', [common_1.Location])
+        __metadata('design:paramtypes', [common_1.Location, platform_browser_1.Title])
     ], AppComponent);
     return AppComponent;
 }());
