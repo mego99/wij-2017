@@ -1,6 +1,8 @@
 import { NgModule }      from '@angular/core';
 import { BrowserModule, Title } from '@angular/platform-browser';
 import { RouterModule } from '@angular/router';
+import { HttpModule } from '@angular/http';
+
 
 import { AppComponent }  from './app.component';
 import { SpeakersComponent } from './speakers.component';
@@ -19,6 +21,7 @@ import { NavComponent } from './nav.component';
 @NgModule({
   imports:      [
      BrowserModule,
+     HttpModule,
      RouterModule.forRoot([
        {
          path:'about',

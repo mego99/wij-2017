@@ -10,3 +10,4 @@ _test-output
 _temp
 .DS_Store
 *.js
+.DS_Store
