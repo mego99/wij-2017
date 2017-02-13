@@ -11,6 +11,9 @@ import { Component } from '@angular/core';
     <div class="logo"></div>
   `,
   styles:[`
+      .background {
+        /*background-color: #ed2024;*/
+      }
       .title {
         top:5vh;
       }
