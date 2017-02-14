@@ -11,3 +11,4 @@ _temp
 .DS_Store
 *.js
 dist
+CNAME
