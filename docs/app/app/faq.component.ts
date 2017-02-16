@@ -11,7 +11,7 @@ import { Component } from '@angular/core';
     <p>If the Google form does not work for you, please email "wij.sage@gmail.com" with your name, email address, grade, school, and if you would like a Japanese to English translation headset.</p>
 
     <h3>Do I have to pay to attend?</h3>
-    <p>Yes, there is a required fee to attend the conference. However, SAGE will be fundraising for the Asian University for Women in Bangladesh, so we encourage all participants to donate 500 yen. If everyone that attends donates 500 yen to AUW, we will be able to raise one scholarship for one student to attend university for a year!</p>
+    <p>Yes, there is a required fee of ¥500 to attend the conference. This fee will be collected at the door during registration. SAGE will also be holding several fundraising events during the conference, from which all funds will go to scholarships for women to attend the Asian University for Women in Bangladesh.</p>
 
     <h3>Is there a dress code? </h3>
     <p>No, there is no dress code. </p>
