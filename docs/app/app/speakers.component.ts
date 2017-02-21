@@ -53,7 +53,7 @@ import { Component, OnInit } from '@angular/core';
           <div class="img-wrapper"><img class="speaker-img" src="../assets/SilvesterC.png" alt="Noriko Silvester" /></div>
           <div class="speaker-bio-wrapper">
             <h2>Noriko Silvester</h2>
-            <p>Akiko leads APAC Google Partner Plex where Google helps our clients and partners develop their innovative visions, strategies, and digitize their business. She joined Google in April 2013 and she led and expanded Google’s digital marketing business. Prior to Google, she was President/Head of Asia Pacific in Bloomberg K.K. in Japan. <br><br>Akiko has a BA in Political Science and Economics from Waseda University and an MBA from The University of Chicago. She completed the Advanced Management Program at Harvard Business School. She serves for Kirin Company, Limited as a Director of the Board (outside) from April, 2016. She is a proud mother of two young boys.</p>
+            <p>bio</p>
           </div>
         </div>
 
@@ -61,7 +61,7 @@ import { Component, OnInit } from '@angular/core';
           <div class="img-wrapper"><img class="speaker-img" src="../assets/NagaseC.png" alt="Nobuko Nagase" /></div>
           <div class="speaker-bio-wrapper">
             <h2>Nobuko Nagase</h2>
-            <p>Sachin N. Shah received a B.S. degree in electrical engineering and a master’s degree in technology and business management from Stevens Institute of Technology in New Jersey. Shah is Executive Vice President for MetLife. He is the Chairman, President and Chief Executive Officer of MetLife Insurance K.K. He is also a member of the Board of Directors and Representative Statutory Executive Officer of MetLife Insurance K.K. Before his assignments in Japan, Shah was the global leader for the integration of Alico into MetLife until closing of the transaction in November 2010. Shah serves on the board of the US Japan Business Council and on the Board of Governors for the American Chamber of Commerce in Japan.</p>
+            <p>bio</p>
           </div>
         </div>
 
@@ -105,7 +105,7 @@ import { Component, OnInit } from '@angular/core';
           <div class="img-wrapper"><img class="speaker-img" src="../assets/RichC.png" alt="Motoko Rich" /></div>
           <div class="speaker-bio-wrapper">
             <h2>Motoko Rich</h2>
-            <p>Akiko leads APAC Google Partner Plex where Google helps our clients and partners develop their innovative visions, strategies, and digitize their business. She joined Google in April 2013 and she led and expanded Google’s digital marketing business. Prior to Google, she was President/Head of Asia Pacific in Bloomberg K.K. in Japan. <br><br>Akiko has a BA in Political Science and Economics from Waseda University and an MBA from The University of Chicago. She completed the Advanced Management Program at Harvard Business School. She serves for Kirin Company, Limited as a Director of the Board (outside) from April, 2016. She is a proud mother of two young boys.</p>
+            <p>Motoko Rich is Tokyo Bureau Chief for <i>The New York Times</i>, where she writes about politics, national security, foreign policy, women’s issues, the challenges of an aging society, and culture.  She came to Japan in August, after nearly four years writing about K-12 education for the <i>Times</i>’ national desk. She focused primarily on public schools and the challenges they face in testing, demographic change, race relations, preparing and evaluating teachers, school discipline, technology and government policy. Before coming to <i>The Times</i>, Ms. Rich was a reporter at <i>The Wall Street Journal</i> and the <i>Financial Times</i> in London. Born in Los Angeles and raised in Tokyo and Petaluma, Calif., Ms. Rich graduated from Yale in 1991. She also received a degree in English from Cambridge University in England. She currently lives with her husband and two children in Tokyo.</p>
           </div>
         </div>
 
