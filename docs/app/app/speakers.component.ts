@@ -159,6 +159,12 @@ import { Component, OnInit } from '@angular/core';
     </div>
   `,
   styles:[`
+    h1 {
+      display:inline-table;
+      margin:auto;
+      margin-bottom:50px;
+      margin-top:50px;
+    }
     h2 {
       padding:0;
       margin:0;
