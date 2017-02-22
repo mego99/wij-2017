@@ -22,6 +22,7 @@ import { Component } from '@angular/core';
       margin:30px;
       color:black;
       background-color:#ff9898;
+      font-size:1.6em;
     }
     a:hover {
       color:#573e3e;
