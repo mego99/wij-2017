@@ -28,6 +28,11 @@ import { Component } from '@angular/core';
       left:2vw;
       bottom:2vw;
     }
+    @media (max-width:600px) {
+      .net {
+        display:none;
+      }
+    }
     `]
 })
 export class IndexComponent { }
