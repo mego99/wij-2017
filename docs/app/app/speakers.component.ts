@@ -11,7 +11,7 @@ import { Component, OnInit } from '@angular/core';
         <div class="img-wrapper"><img class="speaker-img" src="../assets/HayashiC.png" alt="Fumiko Hayashi" /></div>
           <div class="speaker-bio-wrapper">
             <h2>Fumiko Hayashi</h2>
-            <p>fumiko hayashi bio</p>
+            <p class="bio-cs">more information coming soon!</p>
           </div>
         </div>
 
@@ -53,7 +53,7 @@ import { Component, OnInit } from '@angular/core';
           <div class="img-wrapper"><img class="speaker-img" src="../assets/SilvesterC.png" alt="Noriko Silvester" /></div>
           <div class="speaker-bio-wrapper">
             <h2>Noriko Silvester</h2>
-            <p>bio</p>
+            <p class="bio-cs">more information coming soon!</p>
           </div>
         </div>
 
@@ -66,10 +66,10 @@ import { Component, OnInit } from '@angular/core';
         </div>
 
         <div class="speaker-wrapper">
-          <div class="img-wrapper"><img class="speaker-img" src="../assets/KameyaC.png" alt="Karen Kameya" /></div>
+          <div class="img-wrapper"><img class="speaker-img" src="../assets/coming-soon-speaker.png" alt="Karen Kameya" /></div>
           <div class="speaker-bio-wrapper">
             <h2>Karen Kameya</h2>
-
+            <p class="bio-cs">more information coming soon!</p>
           </div>
         </div>
 
@@ -201,6 +201,10 @@ import { Component, OnInit } from '@angular/core';
     }
     .three {
       flex-basis:33%;
+    }
+    .bio-cs {
+      color:#ff3434;
+      text-style:oblique;
     }
     `]
 })
