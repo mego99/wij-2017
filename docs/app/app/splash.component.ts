@@ -11,6 +11,9 @@ import { Component } from '@angular/core';
     <div class="logo"></div>
   `,
   styles:[`
+      h1 {
+        box-shadow:none;
+      }
       .background {
         /*background-color: #ed2024;*/
       }
