@@ -212,6 +212,12 @@ import { Component, OnInit } from '@angular/core';
       color:#ff3434;
       text-style:oblique;
     }
+
+    @media (max-width:600px) {
+      .level-wrapper {
+        flex-direction:column;
+      }
+    }
     `]
 })
 export class SpeakersComponent {
