@@ -41,7 +41,7 @@ import { Component, OnInit } from '@angular/core';
           <div class="img-wrapper"><img class="speaker-img" src="../assets/ShahC.png" alt="Sachin Shah" /></div>
           <div class="speaker-bio-wrapper">
             <h2>Sachin Shah</h2>
-            <p>Sachin N. Shah received a B.S. degree in electrical engineering and a master’s degree in technology and business management from Stevens Institute of Technology in New Jersey. Shah is Executive Vice President for MetLife. He is the Chairman, President and Chief Executive Officer of MetLife Insurance K.K. He is also a member of the Board of Directors and Representative Statutory Executive Officer of MetLife Insurance K.K. Before his assignments in Japan, Shah was the global leader for the integration of Alico into MetLife until closing of the transaction in November 2010. Shah serves on the board of the US Japan Business Council and on the Board of Governors for the American Chamber of Commerce in Japan.</p>
+            <p>Sachin N. Shah is Executive Vice President for MetLife. He is the Chairman, President and Chief Executive Officer of MetLife Insurance K.K. He is also a member of the Board of Directors and Representative Statutory Executive Officer of MetLife Insurance K.K. Shah has held these positions since August 1, 2013 and is responsible for overseeing all of MetLife’s Japan operations. Prior to this role, he was the Chief Operating Officer for MetLife Insurance K.K. from 2011. Before his assignments in Japan, Shah was the global leader for the integration of Alico into MetLife until closing of the transaction in November 2010. Shah serves on the board of the US Japan Business Council and also on the board of governors for the American Chamber of Commerce in Japan. Shah received a B.S. degree in electrical engineering and a master’s degree in technology and business management from Stevens Institute of Technology in New Jersey.</p>
           </div>
         </div>
 
@@ -61,7 +61,7 @@ import { Component, OnInit } from '@angular/core';
           <div class="img-wrapper"><img class="speaker-img" src="../assets/NagaseC.png" alt="Nobuko Nagase" /></div>
           <div class="speaker-bio-wrapper">
             <h2>Nobuko Nagase</h2>
-            <p>bio</p>
+            <p>Nobuko Nagase is a professor of Labor Economics and Social Policy at Ochanomizu University in Tokyo, Japan. She has written about work and family from the Asian perspective, comparing Japan with other East Asian and Western economies. Her interests include wage structure and work choice, labor market regulations and social security, tax and other institutional effects on work and gender, marital behavior and child-birth timing. She obtained her Ph.D. in 1995 from the University of Tokyo, Economics Department.Nagase is a Council Member of Science Council of Japan from 2014, and the Chair of Work and Life Balance Research of Science Council. She has served in governmental appointments such as the Statistics Commission, the Japanese Tax Commission, and Special Committee on Council for Gender Equality at the Japanese Cabinet Office.</p>
           </div>
         </div>
 
