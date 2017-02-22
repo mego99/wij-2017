@@ -30,9 +30,20 @@ import { Component } from '@angular/core';
         top:0;
         left:0;
         max-width:100vw;
-        background-color:rgba(255, 255, 255, 0.2);
+        background-color:#ed2024;
         width:100%;
         box-sizing:border-box;
+      }
+      a {
+        color:#131313;
+        text-decoration: none;
+      }
+      a:hover {
+        color:#ffe0e1;
+        transition:.5s;
+      }
+      a:active {
+        color:#ff003d;
       }
       `]
 })

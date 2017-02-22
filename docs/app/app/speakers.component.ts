@@ -47,7 +47,7 @@ import { Component, OnInit } from '@angular/core';
 
       </div>
 
-      <div class="panel-one-bottom level-wrapper">
+      <div class="panel-one-bottom level-wrapper three">
 
         <div class="speaker-wrapper">
           <div class="img-wrapper"><img class="speaker-img" src="../assets/SilvesterC.png" alt="Noriko Silvester" /></div>
@@ -65,11 +65,19 @@ import { Component, OnInit } from '@angular/core';
           </div>
         </div>
 
+        <div class="speaker-wrapper">
+          <div class="img-wrapper"><img class="speaker-img" src="../assets/KameyaC.png" alt="Karen Kameya" /></div>
+          <div class="speaker-bio-wrapper">
+            <h2>Karen Kameya</h2>
+
+          </div>
+        </div>
+
       </div>
 
       <h1>Breakout</h1>
 
-      <div class="breakout-level level-wrapper">
+      <div class="breakout-level level-wrapper three">
 
         <div class="speaker-wrapper">
           <div class="img-wrapper"><img class="speaker-img" src="../assets/HarrisC.png" alt="Emmy Harris" /></div>
@@ -190,6 +198,9 @@ import { Component, OnInit } from '@angular/core';
     }
     .keynote-speaker {
       flex-basis:50%;
+    }
+    .three {
+      flex-basis:33%;
     }
     `]
 })
