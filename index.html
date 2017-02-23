@@ -10,6 +10,16 @@
     <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
     <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
 
+    <script>
+      (function(){
+        var redirect = sessionStorage.redirect;
+        delete sessionStorage.redirect;
+        if (redirect && redirect != location.href) {
+          history.replaceState(null, null, redirect);
+        }
+      })();
+    </script>
+
     <!-- Polyfill(s) for older browsers -->
     <script src="node_modules/core-js/client/shim.min.js"></script>
 
@@ -21,19 +31,10 @@
       System.import('app').catch(function(err){ console.error(err); });
     </script>
 
-    <script>
-      // See http://www.backalleycoder.com/2016/05/13/sghpa-the-single-page-app-hack-for-github-pages/
-      (function(){
-        var redirect = sessionStorage.redirect;
-        delete sessionStorage.redirect;
-        if (redirect && redirect != location.href) {
-          history.replaceState(null, null, redirect);
-        }
-      })();
-    </script>
-  <link href="styles.a8e3ef6b6fbd21def72a.bundle.css" rel="stylesheet"/></head>
+
+  <link href="styles.50f164e5400b0e54dbf0.bundle.css" rel="stylesheet"/></head>
 
   <body>
-    <my-app>Loading AppComponent content here ...</my-app>
-  <script type="text/javascript" src="inline.bdb738f601d94cd923f6.bundle.js"></script><script type="text/javascript" src="polyfills.e8b580bb3eb43c2acac0.bundle.js"></script><script type="text/javascript" src="vendor.a0a9ae871e79d5684aec.bundle.js"></script><script type="text/javascript" src="main.19a3f8e0c3231d248d6a.bundle.js"></script></body>
+    <my-app>Loading...</my-app>
+  <script type="text/javascript" src="inline.be0cac5cb13bb9ebde49.bundle.js"></script><script type="text/javascript" src="polyfills.416eee976a4bbffc3eda.bundle.js"></script><script type="text/javascript" src="vendor.6ee3c98100d9dac6be7e.bundle.js"></script><script type="text/javascript" src="main.f3836d62c44c6b60a785.bundle.js"></script></body>
 </html>
