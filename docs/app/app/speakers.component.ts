@@ -69,9 +69,9 @@ import { Component, OnInit } from '@angular/core';
         </div>
 
         <div class="speaker-wrapper">
-          <div class="img-wrapper"><img class="speaker-img" src="../assets/coming-soon-speaker.png" alt="Karen Kameya" /></div>
+          <div class="img-wrapper"><img class="speaker-img" src="../assets/coming-soon-speaker.png" alt="Karin Kameya" /></div>
           <div class="speaker-bio-wrapper">
-            <h2>Karen Kameya</h2>
+            <h2>Karin Kameya</h2>
             <p>Karin Kameya is a consultant in the Health Sciences Global Business Unit at Oracle, specializing in clinical trial data capture systems for clients in the pharmaceutical industry and academia. Prior to joining Oracle, she was a clinical data manager at contract research organization CMIC. Karin is a graduate of Pomona College, where she majored in Mathematics. She currently lives in Tokyo with her husband and two sons.</p>
           </div>
         </div>
