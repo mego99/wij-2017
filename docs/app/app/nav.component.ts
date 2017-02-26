@@ -25,13 +25,12 @@ import { Component } from '@angular/core';
       .nav-wrapper {
         text-align:center;
         border-bottom: 3px solid #000;
-        padding: 20px;
         margin:0;
         top:0;
         left:0;
-        max-width:100vw;
         background-color:#ed2024;
-        width:100%;
+        width:100vw;
+        padding:20px;
         box-sizing:border-box;
       }
       a {

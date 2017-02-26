@@ -33,7 +33,7 @@ import { Title } from '@angular/platform-browser';
     .content-wrapper {
       text-align:center;
       padding: 0 10vw 0 10vw;
-      max-width:100vw;
+      max-width:80vw;
       height:auto;
     }
     `
