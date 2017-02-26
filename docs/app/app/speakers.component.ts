@@ -11,6 +11,7 @@ import { Component, OnInit } from '@angular/core';
         <div class="img-wrapper"><img class="speaker-img" src="../assets/HayashiC.png" alt="Fumiko Hayashi" /></div>
           <div class="speaker-bio-wrapper">
             <h2>Fumiko Hayashi</h2>
+            <p class="speaker-role">Opening Keynote</p>
             <p>Fumiko Hayashi was elected as the first woman Mayor of Yokohama in 2009, and reelected in August 2013. She puts a lot of effort into support for female empowerment strategies, such as solving the issue of children on waiting lists of child care centers, female entrepreneurship and networking among women. Before assuming office as Mayor, she had an extensive career in the business world. She found her niche in the occupation of car sales and became the top salesperson in the company. She served as President of BMW Tokyo, Corp., Chairperson and CEO of The Daiei, Inc., Operating Officer of Nissan Motor Co. Ltd. Selected as one of Wall Street Journal’s “50 Women to Watch” in 2004 and one of Fortune Magazine’s “50 Most Powerful Women in Business: International” in 2008.</p>
           </div>
         </div>
@@ -19,6 +20,7 @@ import { Component, OnInit } from '@angular/core';
           <div class="img-wrapper"><img class="speaker-img" src="../assets/InoguchiC.png" alt="Kuniko Inoguchi" /></div>
           <div class="speaker-bio-wrapper">
             <h2>Kuniko Inoguchi</h2>
+            <p class="speaker-role">Closing Keynote</p>
             <p>Kuniko Inoguchi, Ph.D. is a Member of the House of Councillors of Japan; Chairman of the Special Committee on Okinawa and Northern Problems; and Member of the Science Council of Japan. She was appointed Minister of State for Gender Equality and Social Affairs (2005 to 2006), and elected as Member of the House of Representatives (2005 to 2009). Prior to her political appointments, she served as Ambassador Extraordinary and Plenipotentiary and Head of the Delegation of Japan to the Conference on Disarmament in Geneva, Switzerland (2002 to 2004). Prior to her appointment as Ambassador, she taught first as Associate Professor, then Professor of Political Science in the Faculty of Law at Sophia University, Tokyo (1981 to 2002). She received her Ph.D. in Political Science from Yale University (1982), M.A. from Yale University (1977), and B.A. from Sophia University (1975). She lives in Tokyo with her husband and two daughters.</p>
           </div>
 
@@ -41,6 +43,7 @@ import { Component, OnInit } from '@angular/core';
           <div class="img-wrapper"><img class="speaker-img" src="../assets/ShahC.png" alt="Sachin Shah" /></div>
           <div class="speaker-bio-wrapper">
             <h2>Sachin Shah</h2>
+            <p class="speaker-role">Moderator</p>
             <p>Sachin N. Shah is Executive Vice President for MetLife. He is the Chairman, President and Chief Executive Officer of MetLife Insurance K.K. He is also a member of the Board of Directors and Representative Statutory Executive Officer of MetLife Insurance K.K. Shah has held these positions since August 1, 2013 and is responsible for overseeing all of MetLife’s Japan operations. Prior to this role, he was the Chief Operating Officer for MetLife Insurance K.K. from 2011. Before his assignments in Japan, Shah was the global leader for the integration of Alico into MetLife until closing of the transaction in November 2010. Shah serves on the board of the US Japan Business Council and also on the board of governors for the American Chamber of Commerce in Japan. Shah received a B.S. degree in electrical engineering and a master’s degree in technology and business management from Stevens Institute of Technology in New Jersey.</p>
           </div>
         </div>
@@ -141,6 +144,7 @@ import { Component, OnInit } from '@angular/core';
           <div class="img-wrapper"><img class="speaker-img" src="../assets/TaylorC.png" alt="Akiko Ryu Innes-Taylor" /></div>
           <div class="speaker-bio-wrapper">
             <h2>Akiko Ryu Innes-Taylor</h2>
+            <p class="speaker-role">Moderator</p>
             <p>Akiko Ryu Innes-Taylor serves as Senior Vice President and Head of Human Resource Planning at Otsuka Holdings Co., Ltd. In this position, she is devoted to finding and developing excellent talents. She originally joined Otsuka Pharmaceuticals as a researcher at the Saga Nutrition Institute in 1986, but has since worked in Marketing and Global Communication. Akiko has also worked for the American Advertising Agency and Master Foods (currently Mars Japan). In 2000, she took a job at Bluebell Japan, where she was General Manager for Cosmetics. In 2005, prior to moving to Otsuka, she was a Representative Director for Sisley Japan. Akiko has also long-been an advocate for the advancement for women, and has participated in the APEC Women \& Economy Summit several times.</p>
           </div>
         </div>
@@ -211,6 +215,13 @@ import { Component, OnInit } from '@angular/core';
     .bio-cs {
       color:#ff3434;
       text-style:oblique;
+    }
+    .speaker-role {
+      text-transform:uppercase;
+      text-style:oblique;
+      margin:0;
+      padding:0;
+      color:#cb8989;
     }
 
     @media (max-width:600px) {
