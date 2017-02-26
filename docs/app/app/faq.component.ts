@@ -22,7 +22,7 @@ import { Component } from '@angular/core';
 
     <div class="qa-wrapper">
       <h3>Is there a dress code? </h3>
-      <p>No, there is no dress code. </p>
+      <p>Although there is no formal dress code, participants are encouraged to wear red as a show of solidarity with international women's rights movements.</p>
     </div>
 
     <div class="qa-wrapper">
