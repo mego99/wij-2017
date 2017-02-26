@@ -11,7 +11,7 @@ import { Component, OnInit } from '@angular/core';
         <div class="img-wrapper"><img class="speaker-img" src="../assets/HayashiC.png" alt="Fumiko Hayashi" /></div>
           <div class="speaker-bio-wrapper">
             <h2>Fumiko Hayashi</h2>
-            <p class="bio-cs">more information coming soon!</p>
+            <p>Fumiko Hayashi was elected as the first woman Mayor of Yokohama in 2009, and reelected in August 2013. She puts a lot of effort into support for female empowerment strategies, such as solving the issue of children on waiting lists of child care centers, female entrepreneurship and networking among women. Before assuming office as Mayor, she had an extensive career in the business world. She found her niche in the occupation of car sales and became the top salesperson in the company. She served as President of BMW Tokyo, Corp., Chairperson and CEO of The Daiei, Inc., Operating Officer of Nissan Motor Co. Ltd. Selected as one of Wall Street Journal’s “50 Women to Watch” in 2004 and one of Fortune Magazine’s “50 Most Powerful Women in Business: International” in 2008.</p>
           </div>
         </div>
 
@@ -19,7 +19,7 @@ import { Component, OnInit } from '@angular/core';
           <div class="img-wrapper"><img class="speaker-img" src="../assets/InoguchiC.png" alt="Kuniko Inoguchi" /></div>
           <div class="speaker-bio-wrapper">
             <h2>Kuniko Inoguchi</h2>
-            <p>Kuniko INOGUCHI, Ph.D. is Member, House of Councillors of Japan, Chairman, Special Committee on Okinawa and Northern Problems, and Member, of the Science Council of Japan. She was appointed Minister of State for Gender Equality and Social Affairs (2005 to 2006), and elected as Member of the House of Representatives (2005 to 2009). Prior to her political appointments, she served as Ambassador Extraordinary and Plenipotentiary and Head of the Delegation of Japan to the Conference on Disarmament in Geneva, Switzerland (2002 to 2004). Prior to her appointment as Ambassador, she taught first as Associate Professor, then Professor of Political Science in the Faculty of Law at Sophia University, Tokyo (1981 to 2002). <br><br>She received her Ph.D. in Political Science from Yale University (1982), M.A. from Yale University (1977), and B.A. from Sophia University (1975). She is married to Takashi Inoguchi, President of the University of Niigata Prefecture, and former Professor of the University of Tokyo. They reside in Tokyo and have two daughters.</p>
+            <p>Kuniko Inoguchi, Ph.D. is a Member of the House of Councillors of Japan; Chairman of the Special Committee on Okinawa and Northern Problems; and Member of the Science Council of Japan. She was appointed Minister of State for Gender Equality and Social Affairs (2005 to 2006), and elected as Member of the House of Representatives (2005 to 2009). Prior to her political appointments, she served as Ambassador Extraordinary and Plenipotentiary and Head of the Delegation of Japan to the Conference on Disarmament in Geneva, Switzerland (2002 to 2004). Prior to her appointment as Ambassador, she taught first as Associate Professor, then Professor of Political Science in the Faculty of Law at Sophia University, Tokyo (1981 to 2002). She received her Ph.D. in Political Science from Yale University (1982), M.A. from Yale University (1977), and B.A. from Sophia University (1975). She lives in Tokyo with her husband and two daughters.</p>
           </div>
 
         </div>
@@ -33,7 +33,7 @@ import { Component, OnInit } from '@angular/core';
           <div class="img-wrapper"><img class="speaker-img" src="../assets/NakajoC.png" alt="Akiko Nakajo" /></div>
           <div class="speaker-bio-wrapper">
             <h2>Akiko Nakajo</h2>
-            <p>Akiko leads APAC Google Partner Plex where Google helps our clients and partners develop their innovative visions, strategies, and digitize their business. She joined Google in April 2013 and she led and expanded Google’s digital marketing business. Prior to Google, she was President/Head of Asia Pacific in Bloomberg K.K. in Japan. <br><br>Akiko has a BA in Political Science and Economics from Waseda University and an MBA from The University of Chicago. She completed the Advanced Management Program at Harvard Business School. She serves for Kirin Company, Limited as a Director of the Board (outside) from April, 2016. She is a proud mother of two young boys.</p>
+            <p>Akiko leads APAC Google Partner Plex where Google helps our clients and partners develop their innovative visions, strategies, and digitize their business. She joined Google in April 2013 and she led and expanded Google’s digital marketing business. Prior to Google, she was President/Head of Asia Pacific in Bloomberg K.K. in Japan. Akiko has a BA in Political Science and Economics from Waseda University and an MBA from The University of Chicago. She completed the Advanced Management Program at Harvard Business School. She serves for Kirin Company, Limited as a Director of the Board (outside) from April, 2016. She is a proud mother of two young boys.</p>
           </div>
         </div>
 
@@ -53,7 +53,7 @@ import { Component, OnInit } from '@angular/core';
           <div class="img-wrapper"><img class="speaker-img" src="../assets/SilvesterC.png" alt="Noriko Silvester" /></div>
           <div class="speaker-bio-wrapper">
             <h2>Noriko Silvester</h2>
-            <p class="bio-cs">more information coming soon!</p>
+            <p>Noriko Silvester is the Founder and Managing Director of Candlewick Co., Ltd. She started her career as an executive secretary in an American financial firm in Japan, but dissatisfied with merely a supporting position, she moved into sales and training in a cosmetic firm. In this role, Noriko continued to develop her career as she traveled nationwide.  In 1999, she took an opportunity to join British pharmaceutical retailer, Boots, as one of the founding members in Japan. When Boots withdrew from Japan some years later, she decided to take direct control of her career and started Candlewick, a PR and marketing consultancy. 14 years onwards, 90% of Candlewick’s staff are women and 66% are working mothers.</p>
           </div>
         </div>
 
@@ -69,7 +69,7 @@ import { Component, OnInit } from '@angular/core';
           <div class="img-wrapper"><img class="speaker-img" src="../assets/coming-soon-speaker.png" alt="Karen Kameya" /></div>
           <div class="speaker-bio-wrapper">
             <h2>Karen Kameya</h2>
-            <p class="bio-cs">more information coming soon!</p>
+            <p>Karin Kameya is a consultant in the Health Sciences Global Business Unit at Oracle, specializing in clinical trial data capture systems for clients in the pharmaceutical industry and academia. Prior to joining Oracle, she was a clinical data manager at contract research organization CMIC. Karin is a graduate of Pomona College, where she majored in Mathematics. She currently lives in Tokyo with her husband and two sons.</p>
           </div>
         </div>
 
@@ -83,7 +83,7 @@ import { Component, OnInit } from '@angular/core';
           <div class="img-wrapper"><img class="speaker-img" src="../assets/HarrisC.png" alt="Emmy Harris" /></div>
           <div class="speaker-bio-wrapper">
             <h2>Emmy Harris</h2>
-            <p>Emmy currently serves as the Asia Managing Director for Change.org -- the world's largest petition platform, with over 180 million users in 196 countries. <br><br>Before joining Change.org and returning to Tokyo, Emmy lived in New York City and played an instrumental role in building Purpose (purpose.com) into a leading social movement incubator and consultancy.<br><br>Emmy began her career at the global management consulting firm McKinsey \& Company and cut her teeth in politics on the 2008 Obama campaign. She is a graduate of Yale College, where she majored in East Asian Studies and studied abroad in Beijing and Taipei. She was born and raised in Tokyo and lives there now with her husband and one-year-old daughter.</p>
+            <p>Emmy currently serves as the Asia Managing Director for Change.org—the world's largest petition platform, with over 180 million users in 196 countries. Before joining Change.org and returning to Tokyo, Emmy lived in New York City and played an instrumental role in building <a href="purpose.com"> Purpose</a> into a leading social movement incubator and consultancy. Emmy began her career at the global management consulting firm McKinsey \& Company and cut her teeth in politics on the 2008 Obama campaign. She is a graduate of Yale College, where she majored in East Asian Studies and studied abroad in Beijing and Taipei. She was born and raised in Tokyo and lives there now with her husband and one-year-old daughter.</p>
           </div>
         </div>
 
@@ -91,7 +91,7 @@ import { Component, OnInit } from '@angular/core';
           <div class="img-wrapper"><img class="speaker-img" src="../assets/MurakamiC.png" alt="Yumiko Murakami" /></div>
           <div class="speaker-bio-wrapper">
             <h2>Yumiko Murakami</h2>
-            <p>Yumiko Murakami has been at the forefront of policy discussions between OECD and governments, businesses and academia in Japan and Asia, covering a wide range of economic policy areas since she joined the OECD in 2013 as Head of OECD Tokyo Centre. She has been leading discussions with various stake holders, particularly in the areas of Corporate Governance, tax guidelines, gender diversity, education, international trade and innovation.<br><br>Yumiko has diversified professional experiences, ranging from a number of leadership positions in banking business to UN PKO.<br><br>Yumiko has MBA from Harvard University, MA from Stanford University and BA from Sophia University.</p>
+            <p>Yumiko Murakami has been at the forefront of policy discussions between OECD and governments, businesses and academia in Japan and Asia, covering a wide range of economic policy areas since she joined the OECD in 2013 as Head of OECD Tokyo Centre. She has been leading discussions with various stake holders, particularly in the areas of Corporate Governance, tax guidelines, gender diversity, education, international trade and innovation. Yumiko has diversified professional experiences, ranging from a number of leadership positions in banking business to UN PKO. Yumiko has MBA from Harvard University, MA from Stanford University and BA from Sophia University.</p>
           </div>
         </div>
 
@@ -99,7 +99,7 @@ import { Component, OnInit } from '@angular/core';
           <div class="img-wrapper"><img class="speaker-img" src="../assets/WihmanC.png" alt="Peter Wihman" /></div>
           <div class="speaker-bio-wrapper">
             <h2>Peter Wihman</h2>
-            <p>Peter has been with Microsoft for over twenty years working in various field management roles for the Enterprise and Microsoft Consulting Services, and is now based at the Microsoft Japan office in Tokyo, Japan. He is part of the Japanese Enterprise and Partner group, managing a team of over two hundred deep specialists across the Microsoft cloud and devices portfolio. During his career within Microsoft, Peter has focused on pushing the envelope in leading teams to sell and implement best of breed enterprise solutions in collaboration, integration and mainframe application re-platforming. Peter will speak about the importance of diversity in the workplace.</p>
+            <p>Peter Wihman has been with Microsoft for over twenty years working in various field management roles for the Enterprise and Microsoft Consulting Services, and is now based at the Microsoft Japan office in Tokyo, Japan. He is part of the Japanese Enterprise and Partner group, managing a team of over two hundred deep specialists across the Microsoft cloud and devices portfolio. During his career within Microsoft, Peter has focused on pushing the envelope in leading teams to sell and implement best of breed enterprise solutions in collaboration, integration and mainframe application re-platforming. He is happily married and is the father of two girls. Peter will speak about the importance of diversity in the workplace.</p>
           </div>
         </div>
 
@@ -121,7 +121,7 @@ import { Component, OnInit } from '@angular/core';
           <div class="img-wrapper"><img class="speaker-img" src="../assets/BacaC.png" alt="Danielle Baca" /></div>
           <div class="speaker-bio-wrapper">
             <h2>Danielle Baca</h2>
-            <p>Danielle Baca started with Nike in 2002 as an Administrative Assistant in Entertainment Marketing and since then, has had experiences in Sports Marketing and North America’s Direct To Consumer business. In the summer of 2012 she was offered the chance to move to Amsterdam and lead the Digital Merchandising function for Europe. Following 3 years in the Netherlands Danielle accepted the opportunity to run Nike’s e-commerce business in Japan as the General Manager of Nike.com/JP. Prior to Nike, Danielle worked in the Hotel and Retail industries Colorado and on the East Coast.<br><br>Danielle is a graduate of Fort Lewis College in Durango, Colorado, an avid runner and passionate about her and her kids’ sports. Although Danielle grew up in sunny Colorado, she, her husband Bob and their two kids now call Oregon home.</p>
+            <p>Danielle Baca started with Nike in 2002 as an Administrative Assistant in Entertainment Marketing and since then, has had experiences in Sports Marketing and North America’s Direct To Consumer business. In the summer of 2012 she was offered the chance to move to Amsterdam and lead the Digital Merchandising function for Europe. Following 3 years in the Netherlands Danielle accepted the opportunity to run Nike’s e-commerce business in Japan as the General Manager of Nike.com/JP. Prior to Nike, Danielle worked in the Hotel and Retail industries Colorado and on the East Coast. Danielle is a graduate of Fort Lewis College in Durango, Colorado, an avid runner and passionate about her and her kids’ sports. Although Danielle grew up in sunny Colorado, she, her husband Bob and their two kids now call Oregon home.</p>
           </div>
         </div>
 
@@ -141,7 +141,7 @@ import { Component, OnInit } from '@angular/core';
           <div class="img-wrapper"><img class="speaker-img" src="../assets/TaylorC.png" alt="Akiko Ryu Innes-Taylor" /></div>
           <div class="speaker-bio-wrapper">
             <h2>Akiko Ryu Innes-Taylor</h2>
-            <p>Akiko Ryu Innes Taylor joined the Saga Nutrition Institute of Otsuka Pharmaceutical as a researcher in 1986 and was later transferred to the marketing department. In 1993 she was appointed as the Brand manager of Pocari Sweat. She left Otsuka in 1996, and moved to American Advertising agency, and after worked at Bluebell Japan and Sisley Japan between 2000 and 2005. In 2006, she returned to Otsuka Pharmaceuticals as a Senior Operating Officer. In 2015, she was transferred to Otsuka Holdings (the parent company of Otsuka Pharmaceuticals) as a Senior Operating Officer, Head of Human Resource Planning Office, and has been devoted to finding excellent talents and develop them further since then. </p>
+            <p>Akiko Ryu Innes-Taylor serves as Senior Vice President and Head of Human Resource Planning at Otsuka Holdings Co., Ltd. In this position, she is devoted to finding and developing excellent talents. She originally joined Otsuka Pharmaceuticals as a researcher at the Saga Nutrition Institute in 1986, but has since worked in Marketing and Global Communication. Akiko has also worked for the American Advertising Agency and Master Foods (currently Mars Japan). In 2000, she took a job at Bluebell Japan, where she was General Manager for Cosmetics. In 2005, prior to moving to Otsuka, she was a Representative Director for Sisley Japan. Akiko has also long-been an advocate for the advancement for women, and has participated in the APEC Women \& Economy Summit several times.</p>
           </div>
         </div>
 
