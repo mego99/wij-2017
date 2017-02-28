@@ -12,7 +12,7 @@ import { Component, OnInit } from '@angular/core';
           <div class="speaker-bio-wrapper">
             <h2>Fumiko Hayashi</h2>
             <p class="speaker-role">Opening Keynote</p>
-            <p>Fumiko Hayashi was elected as the first woman Mayor of Yokohama in 2009, and reelected in August 2013. She puts a lot of effort into support for female empowerment strategies, such as solving the issue of children on waiting lists of child care centers, female entrepreneurship and networking among women. Before assuming office as Mayor, she had an extensive career in the business world. She found her niche in the occupation of car sales and became the top salesperson in the company. She served as President of BMW Tokyo, Corp., Chairperson and CEO of The Daiei, Inc., Operating Officer of Nissan Motor Co. Ltd. Selected as one of Wall Street Journal’s “50 Women to Watch” in 2004 and one of Fortune Magazine’s “50 Most Powerful Women in Business: International” in 2008.</p>
+            <p>Fumiko Hayashi was elected as the first woman Mayor of Yokohama in 2009, and reelected in August 2013. She puts a lot of effort into support for female empowerment strategies, such as solving the issue of children on waiting lists of child care centers, female entrepreneurship and networking among women. Before assuming office as Mayor, she had an extensive career in the business world. She found her niche in the occupation of car sales and became the top salesperson in the company. She served as President of BMW Tokyo, Corp., Chairperson and CEO of The Daiei, Inc., Operating Officer of Nissan Motor Co. Ltd. Selected as one of Wall Street Journal’s “50 Women to Watch” in 2004 and one of Fortune Magazine’s “50 Most Powerful Women in Business: International” in 2008.<br><br>Bio provided by the Ministry of Foreign Affairs of Japan</p>
           </div>
         </div>
 
@@ -80,12 +80,13 @@ import { Component, OnInit } from '@angular/core';
 
       <h1>Breakout</h1>
 
-      <div class="breakout-level level-wrapper three">
+      <div class="breakout-level level-wrapper">
 
         <div class="speaker-wrapper">
-          <div class="img-wrapper"><img class="speaker-img" src="../assets/HarrisC.png" alt="Emmy Harris" /></div>
+          <div class="img-wrapper"><img class="speaker-img" src="../assets/HarrisC.png" alt="Emmy Suzuki Harris" /></div>
           <div class="speaker-bio-wrapper">
-            <h2>Emmy Harris</h2>
+            <h2>Emmy Suzuki Harris</h2>
+            <p class="speaker-room">Black Box</p>
             <p>Emmy currently serves as the Asia Managing Director for Change.org—the world's largest petition platform, with over 180 million users in 196 countries. Before joining Change.org and returning to Tokyo, Emmy lived in New York City and played an instrumental role in building <a href="purpose.com"> Purpose</a> into a leading social movement incubator and consultancy. Emmy began her career at the global management consulting firm McKinsey \& Company and cut her teeth in politics on the 2008 Obama campaign. She is a graduate of Yale College, where she majored in East Asian Studies and studied abroad in Beijing and Taipei. She was born and raised in Tokyo and lives there now with her husband and one-year-old daughter.</p>
           </div>
         </div>
@@ -94,15 +95,30 @@ import { Component, OnInit } from '@angular/core';
           <div class="img-wrapper"><img class="speaker-img" src="../assets/MurakamiC.png" alt="Yumiko Murakami" /></div>
           <div class="speaker-bio-wrapper">
             <h2>Yumiko Murakami</h2>
+            <p class="speaker-room">ASIJ Theater</p>
             <p>Yumiko Murakami has been at the forefront of policy discussions between OECD and governments, businesses and academia in Japan and Asia, covering a wide range of economic policy areas since she joined the OECD in 2013 as Head of OECD Tokyo Centre. She has been leading discussions with various stake holders, particularly in the areas of Corporate Governance, tax guidelines, gender diversity, education, international trade and innovation. Yumiko has diversified professional experiences, ranging from a number of leadership positions in banking business to UN PKO. Yumiko has MBA from Harvard University, MA from Stanford University and BA from Sophia University.</p>
           </div>
         </div>
+
+      </div>
+
+      <div class="breakout-level level-wrapper">
 
         <div class="speaker-wrapper">
           <div class="img-wrapper"><img class="speaker-img" src="../assets/WihmanC.png" alt="Peter Wihman" /></div>
           <div class="speaker-bio-wrapper">
             <h2>Peter Wihman</h2>
+            <p class="speaker-room">MPR</p>
             <p>Peter Wihman has been with Microsoft for over twenty years working in various field management roles for the Enterprise and Microsoft Consulting Services, and is now based at the Microsoft Japan office in Tokyo, Japan. He is part of the Japanese Enterprise and Partner group, managing a team of over two hundred deep specialists across the Microsoft cloud and devices portfolio. During his career within Microsoft, Peter has focused on pushing the envelope in leading teams to sell and implement best of breed enterprise solutions in collaboration, integration and mainframe application re-platforming. He is happily married and is the father of two girls. Peter will speak about the importance of diversity in the workplace.</p>
+          </div>
+        </div>
+
+        <div class="speaker-wrapper">
+          <div class="img-wrapper"><img class="speaker-img" src="../assets/CastroC.png" alt="Mariana Castro" /></div>
+          <div class="speaker-bio-wrapper">
+            <h2>Mariana Castro</h2>
+            <p class="speaker-room">MPR</p>
+            <p>Mariana Castro has been the General Manager for Marketing and Operations for Microsoft Japan since July 2015. She has a 25-year long career at Microsoft, where she started as Technical Manager in 1992, and has grown through managing different areas in sales, marketing and operations. Before coming to Japan she was based in USA as General Manager for Latin America New Markets, a region covering Central America, Caribbean and 5 countries in South America. In this job, she was responsible for leading all elements of sales and marketing across the region, including revenue and P\&L performance, and instilling business leadership and marketing intelligence across the region. Originally from Argentina, Mariana holds a Computer Science degree from the University of Buenos Aires, as well as a Master’s degree in Business Administration. She is married with two daughters.</p>
           </div>
         </div>
 
@@ -222,6 +238,16 @@ import { Component, OnInit } from '@angular/core';
       margin:0;
       padding:0;
       color:#cb8989;
+    }
+    .speaker-room {
+      text-transform:uppercase;
+      text-style:oblique;
+      margin:0;
+      padding:0;
+      color:#605a5a;
+    }
+    .speaker-room::before {
+      content:"Location: "
     }
 
     @media (max-width:600px) {
