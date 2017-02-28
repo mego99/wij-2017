@@ -200,7 +200,7 @@ import { Component, OnInit } from '@angular/core';
       flex-direction:column;
       padding-bottom:30px;
       align-items:center;
-      flex-basis:45%;
+      flex: 0 1 50%;
       padding-left: 10px;
       padding-right:10px;
     }
@@ -221,12 +221,6 @@ import { Component, OnInit } from '@angular/core';
       display:flex;
       flex-direction:row;
       justify-content:space-between;
-    }
-    .keynote-speaker {
-      flex-basis:50%;
-    }
-    .three {
-      flex-basis:33%;
     }
     .bio-cs {
       color:#ff3434;
@@ -249,10 +243,12 @@ import { Component, OnInit } from '@angular/core';
     .speaker-room::before {
       content:"Location: "
     }
-
     @media (max-width:600px) {
       .level-wrapper {
         flex-direction:column;
+      }
+      .speaker-wrapper, .keynote-wrapper{
+        flex: 1 0 auto;
       }
     }
     `]
