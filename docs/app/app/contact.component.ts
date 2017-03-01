@@ -45,6 +45,12 @@ import { Component } from '@angular/core';
         display:flex;
         flex-direction:column;
       }
+      @media (max-width:600px) {
+        .links-wrapper {
+          flex-direction:column;
+          align-items:center;
+        }
+      }
       `]
 })
 export class ContactComponent { }
